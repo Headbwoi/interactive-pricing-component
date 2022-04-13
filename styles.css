@@ -52,6 +52,11 @@ body::before{
   border-radius: 0px 0px 0px 10rem;
   z-index: -1;
 }
+@media (min-width: 768px) {
+  body::before{
+    min-height: 55vh;
+  }
+}
 header{
   text-align: center;
   max-width: 320px;
@@ -101,6 +106,7 @@ main{
   max-width: 350px;
   width: 100%;
   padding: 0 1.1rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -304,6 +310,7 @@ main{
     align-items: center;
     padding-left: 3rem;
     padding-right: 3rem;
+    text-align: left;
   }
   .trial-info{
     margin-bottom: 0;
